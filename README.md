@@ -2,23 +2,45 @@
 
 ## Data Visualization Interfaces in Python With Dash
 
-The purpose of this application is to visualize the pipeline of Phylotree and to simplify its use.
+The purpose of this application is to visualize the pipeline of **Phylotree** and to simplify its use.
 
-https://github.com/tahiri-lab/phylogeography-algo
+GitHub Repository: [Phylogeography Algorithm](https://github.com/tahiri-lab/phylogeography-algo)
 
+---
 
-## How to use?
+## 🚀 How to Run
+
+Follow these steps to set up and run the application:
+
 ### Prerequisites
-Before using this program, make sure that you have installed all the necessary libraries for it to work properly. To do this, simply type the following command:
-
+Ensure you have Python installed (version 3.7 or later). Install all the necessary libraries for the program to work properly using the following command:
+```bash
 pip install -r requirements.txt
+```
+Steps to Start the Program
+Run the Application
+Start the program by running the config.py file:
 
+```bash
+python config.py
+```
+Key Algorithms
+The following Python scripts represent the main algorithms:
 
-- Using config.py to star the program
-- tree.py pipeline.py and pipeline_specific_genes.py are the algorithme
-- Folder apps: template for each web page
-- Folder assets: images utilised in template and css file
-- Folder datasets: Meteorological data used in the analysis
-- Folder exec: Biological software used in the analysis
-- Folder input: Parameters used when using biology software
-- Folder output: This folder is used to store the analysis results
+tree.py
+pipeline.py
+pipeline_specific_genes.py
+Access the Application
+Open a web browser and navigate to the provided localhost address (e.g., http://127.0.0.1:8050) to access the interface.
+
+📂 Project Structure
+The project is organized as follows:
+
+config.py: Main file to start the application.
+tree.py, pipeline.py, pipeline_specific_genes.py: Core algorithms for phylogenetic analysis.
+apps/: Templates for each web page in the application.
+assets/: Contains images used in the templates and the CSS file for styling.
+datasets/: Meteorological data used in the analysis.
+exec/: Biological software required for analysis.
+input/: Parameters used when running biological software.
+output/: Stores the results of the analysis.
