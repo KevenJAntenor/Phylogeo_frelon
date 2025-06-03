@@ -1,4 +1,4 @@
-# Phylogeo_frelon
+# 🐝🧬🌍💫  Phylogeo_frelon
 
 ## Data Visualization Interfaces in Python With Dash
 
