@@ -12,7 +12,7 @@ GitHub Repository: [Phylogeography Algorithm](https://github.com/tahiri-lab/phyl
 
 Follow these steps to set up and run the application:
 
-### Prerequisites
+### 📦 Prerequisites
 Ensure you have Python installed (version 3.7 or later). Install all the necessary libraries for the program to work properly using the following command:
 ```bash
 pip install -r requirements.txt
